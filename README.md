@@ -15,7 +15,7 @@ Input File format
 2. For every line, we compare the current line value with a list
 3. If the value is greater than the minimum of the list we remove the minimal value and insert the new one
 
-The complexithy of the algorithm is O(l*log(n))
+The time complexity of the algorithm is O(l*log(n)^2)
 * l: number of line in the file
 * n: number of value to return
 
@@ -23,7 +23,10 @@ In the details, a dichotomic search is used in combination with a [TreeList](htt
 * Inserting: O(1)
 * Deleting: O(1)
 * Getting: O(log(n))
-* Searching (with the dichotomic search): O(log(n))
+* Dichotomic search in an array: O(log(n))
+* Dichotomic search in a Tree list: O(log(n)^2)
+
+The size complexity of the algorithm is O(n).
 
 ## Compilation
 
