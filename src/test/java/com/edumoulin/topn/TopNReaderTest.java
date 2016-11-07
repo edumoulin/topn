@@ -28,6 +28,13 @@ public class TopNReaderTest {
 		LoggerInit.init();
 	}
 	
+	/**
+	 * Write a test file
+	 * @param f
+	 * @param nbLines
+	 * @param deterministic
+	 * @throws IOException
+	 */
 	public static void writeTestFile( File f,int nbLines,boolean deterministic) throws IOException{
 		if(!f.exists()){
 			Random r = new Random(); 

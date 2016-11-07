@@ -13,6 +13,13 @@ import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
+/**
+ * Main class.
+ * 
+ * Parse arguments and kickoff the algorithm.
+ * @author etienne
+ *
+ */
 public class TopNParser {
 
 	private static Logger logger = Logger.getLogger(TopNParser.class);

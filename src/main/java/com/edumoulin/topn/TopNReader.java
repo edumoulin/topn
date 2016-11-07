@@ -8,6 +8,12 @@ import java.util.List;
 import org.apache.commons.collections4.list.TreeList;
 import org.apache.log4j.Logger;
 
+/**
+ * TopN File Handling Class
+ * 
+ * @author etienne
+ *
+ */
 public class TopNReader {
 
 	private static Logger logger = Logger.getLogger(TopNReader.class);
