@@ -45,7 +45,7 @@ highest first.
  -f,--file <arg>           File path
  -h,--help                 print this message
  -ll,--log4j-level <arg>   Log4j level (DEBUG, INFO, WARN or ERROR)
- -n,--topn <arg>           N: the number of value to 
+ -n,--topn <arg>           N: the number of value to return
 ```
 
 ## Execution
